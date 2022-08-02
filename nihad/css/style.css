@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.my-5{
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+}
+
+.list-unstyled{
+    list-style: none;
+}
+.img-fluid{
+    width:100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0#808292;
+}
+
+
+ header .h-right .menu ul li a{
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    color: #808292;
+    font-weight: 500;
+
+}
+
+.h-right .signup-btn{
+    border: ;
+    border-style: solid;
+    color: white;
+}
+
+.h-right .signup-btn a{
+    text-decoration: none;
+    background-color: #ec272e;
+    padding: 12px 20px;
+    color: white;
+}
+
+header .search input{
+    padding: 10px;
+    border: none;
+    background-color: #eee ;
+    outline: none;
+    
+}
+header .search{
+    position: relative;
+    margin-left: 20px;
+}
+header .search i{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #08a9e6;
+}
+.start-learning{
+    background-color: #eee;
+    padding: 8rem 0;
+}
+.start-learning .left-part{
+    
+    width: 50%;
+}
+.start-learning .right-part{
+    padding: 5rem 2rem;
+    width: 50%;
+}
+.start-learning .left-part .photo-part .photos{
+    width: 30%;
+}
+.start-learning .left-part .photo-part .text-part{
+    width: 50%;
+    color: #808292;
+}
+.start-learning .left-part .photo-part .photos img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.start-learning .left-part .photo-part .photos img:nth-child(2),
+.start-learning .left-part .photo-part .photos img:nth-child(3)
+{
+    margin-left: -15px;
+    
+}
+.start-learning .left-part p{
+    margin: 20px 0px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #3b3c71;
+}
+.start-learning .left-part h1{
+    font-size: 45px;
+    color: #21225f;
+    
+
+}
+.start-learning .left-part .search-bar{
+    display: flex;
+    margin-bottom: 20px;
+}
+.start-learning .left-part .search-bar input{
+    width: 70%;
+    padding: 18px 15px;
+
+}
+.start-learning .left-part .search-bar button{
+    width: 30%;
+    padding: 18px 25px;
+    background-color: #08a9e6;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+.start-learning .left-part .search-bar button i{
+    margin-right: 7px;
+}
+.start-learning .left-part .photo-part{
+    display: flex;
+    
+}
+.start-learning .left-part .discover{
+    margin-top: 25px;
+}
+.start-learning .right-part .left-photo,
+.start-learning .right-part .right-photos
+{
+    width:50%;
+}
+.start-learning .right-part .right-photos img:nth-child(1){
+    border-top-left-radius: 130px;
+    
+}
+.start-learning .right-part .right-photos img:nth-child(2){
+    border-top-right-radius: 130px;
+    margin: 20px 0;
+    
+}
+.start-learning .right-part .left-photo{
+    margin-right: 15px;
+}
+.start-learning .right-part .left-photo img{
+    border-bottom-left-radius: 130px;
+    
+}
